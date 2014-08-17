@@ -5,7 +5,9 @@ A simple and beautiful app made in PHP and SQlite database. It uses [FlightPHP][
 # Screenshots
 
 [screenshot 1][4]
+
 [screenshot 2][5]
+
 [screenshot 3][6]
 
   [4]: http://sarfraznawaz.files.wordpress.com/2014/02/localhost-todo-home.png?w=600&h=247
