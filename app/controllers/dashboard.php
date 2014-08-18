@@ -10,8 +10,8 @@ class Dashboard {
                 FROM todos t
                 LEFT OUTER JOIN categories c ON t.categories_id = c.id
                 WHERE t.completed = '0'
-                ORDER BY t.created desc
-                LIMIT 5
+                ORDER BY t.id desc
+                LIMIT 10
             ")->find_array();
 
         $todos = Todos_Presenter::getTodosList($todos);
